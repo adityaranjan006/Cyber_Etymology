@@ -1,0 +1,109 @@
+*{
+    margin:0;
+    padding: 0;
+    background:();
+}
+body{
+    min-height: 100vh;
+    width: 100%;
+    background-image:linear-gradient(rgba(4,9,30,0.2),rgba(4,9,30,0.7)),url(./photo.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+/* .nav{
+    background-color: rgb(255, 115, 0);   
+    position: relative;
+    height: 40px;
+    width: 100%;
+} */
+
+
+
+.nav1{
+    font-family: 'Goldman', cursive;
+    display: flex;
+    justify-content: center;
+    font-size: 2.5rem;
+    color: white;
+}
+
+
+
+#game{
+    display: block;
+    margin-left: 50px;
+}
+.header p{
+    font-size: 1.4rem;
+    font-family: 'Baloo Bhaijaan 2', cursive;
+    font-weight: 600;
+    margin-top: 40px;
+    color: white;
+}
+
+.container{
+    font-size: 5.5rem;
+    font-family: 'Russo One', sans-serif;
+    padding: 15px 0px;
+    color: rgb(209, 40, 40);
+}
+
+input{
+    display: flex;
+    width: 50%;
+    padding: 3px 8px;
+    border: 2px solid rgb(255, 0, 153);
+    border-radius: 12px;
+    font-family: 'Baloo Bhaijaan 2', cursive;
+    font-size: 1.2rem;
+    align-items: center;
+    color: black;
+}
+#anssubmit{
+    font-family: 'Baloo Bhaijaan 2', cursive;
+    margin-top: 20px;
+    font-size: 1.1rem;
+    padding: 5px 10px;
+    background-color: rgb(198, 57, 57);
+    border: 2px solid rgb(206, 13, 13);
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+#anssubmit:hover{
+    background-color: red;
+    color: rgb(3, 154, 255);
+}
+
+.note{
+    margin-left: 50px;
+    margin-top: 50px;
+    font-size: 19px;
+}
+.note p{
+    padding: 8px 0px;
+    color: white;
+    font-family: 'Baloo Bhaijaan 2', cursive;
+
+}
+
+.points{
+display: flex;
+font-family: 'Baloo Bhaijaan 2', cursive;
+position: absolute;
+top: 35%;
+left: 75%;
+flex-direction: column;
+background-color: white;
+padding: 10px 100px;
+border-radius: 10px;
+}
+.points li{
+    list-style: none;
+    padding: 4px;
+    font-size: 1.3rem;
+    
+}
